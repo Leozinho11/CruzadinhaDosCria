@@ -1,0 +1,17 @@
+p{
+    border: 2px solid black;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+input{
+    margin-top: 1rem;
+}
+
+.pergunta1{
+    display: flex;
+    flex-direction: column;
+}

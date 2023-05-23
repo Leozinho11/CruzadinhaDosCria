@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cruzadinha.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cruzadinha">
+        <div id="pergunta1" class="pergunta1">
+            <p id="letra1"></p>
+            <p id="letra2"></p>
+            <p id="letra3"></p>
+        </div>
+    </div>
+
+    <div class="inputsContainer">
+        <input id="inputPergunta1" oninput="enviarPergunta1()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta" oninput="enviarPergunta()">
+    </div>
+</body>
+
+</html>
+
+<script>
+    function enviarPergunta1() {
+        var resposta1 = inputPergunta1.value
+
+        letra1.innerHTML = resposta1[0]
+        letra2.innerHTML = resposta1[1]
+        letra3.innerHTML = resposta1[2]
+    }
+</script>
