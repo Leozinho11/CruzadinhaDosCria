@@ -12,17 +12,45 @@
 <body>
     <div class="cruzadinha">
         <div id="pergunta1" class="pergunta1">
-            <p id="letra1"></p>
-            <p id="letra2"></p>
-            <p id="letra3"></p>
+            <p id="letra1_1"></p>
+            <p id="letra2_1"></p>
+            <p id="letra3_1"></p>
+        </div>
+
+        <div id="pergunta2" class="pergunta2">
+            <p id="letra1_2"></p>
+            <p id="letra2_2"></p>
+            <p id="letra3_2"></p>
+        </div>
+
+        <div id="pergunta3" class="pergunta3">
+            <p id="letra1_3"></p>
+            <p id="letra2_3"></p>
+            <p id="letra3_3"></p>
+            <p id="letra4_3"></p>
+            <p id="letra5_3"></p>
+            <p id="letra6_3"></p>
+            <p id="letra7_3"></p>
+            <p id="letra8_3"></p>
+            <p id="letra9_3"></p>
+            <p id="letra10_3"></p>
+            <p id="letra11_3"></p>
+            <p id="letra12_3"></p>
+            <p id="letra13_3"></p>
+        </div>
+
+        <div id="pergunta4" class="pergunta4">
+            <p id="letra1_4"></p>
+            <p id="letra2_4"></p>
+            <p id="letra3_4"></p>
         </div>
     </div>
 
     <div class="inputsContainer">
         <input id="inputPergunta1" oninput="enviarPergunta1()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta2" oninput="enviarPergunta2()">
+        <input id="inputPergunta3" oninput="enviarPergunta3()">
+        <input id="inputPergunta4" oninput="enviarPergunta4()">
         <input id="inputPergunta" oninput="enviarPergunta()">
         <input id="inputPergunta" oninput="enviarPergunta()">
         <input id="inputPergunta" oninput="enviarPergunta()">
@@ -45,8 +73,44 @@
     function enviarPergunta1() {
         var resposta1 = inputPergunta1.value
 
-        letra1.innerHTML = resposta1[0]
-        letra2.innerHTML = resposta1[1]
-        letra3.innerHTML = resposta1[2]
+        letra1_1.innerHTML = resposta1[0]
+        letra2_1.innerHTML = resposta1[1]
+        letra3_1.innerHTML = resposta1[2]
     }
+
+    function enviarPergunta2() {
+        var resposta2 = inputPergunta2.value
+
+        letra1_2.innerHTML = resposta2[0]
+        letra2_2.innerHTML = resposta2[1]
+        letra3_2.innerHTML = resposta2[2]
+    }
+
+    function enviarPergunta3() {
+        var resposta3 = inputPergunta3.value
+
+        letra1_3.innerHTML = resposta3[0]
+        letra2_3.innerHTML = resposta3[1]
+        letra3_3.innerHTML = resposta3[2]
+        letra4_3.innerHTML = resposta3[3]
+        letra5_3.innerHTML = resposta3[4]
+        letra6_3.innerHTML = resposta3[5]
+        letra7_3.innerHTML = resposta3[6]
+        letra8_3.innerHTML = resposta3[7]
+        letra9_3.innerHTML = resposta3[8]
+        letra10_3.innerHTML = resposta3[9]
+        letra11_3.innerHTML = resposta3[10]
+        letra12_3.innerHTML = resposta3[11]
+        letra13_3.innerHTML = resposta3[12]
+    }
+
+    function enviarPergunta4() {
+        var resposta4 = inputPergunta4.value
+
+        letra1_4.innerHTML = resposta4[0]
+        letra2_4.innerHTML = resposta4[1]
+        letra3_4.innerHTML = resposta4[2]
+    }
+
+
 </script>
