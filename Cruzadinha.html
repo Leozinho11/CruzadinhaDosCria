@@ -44,6 +44,62 @@
             <p id="letra2_4"></p>
             <p id="letra3_4"></p>
         </div>
+
+        <div id="pergunta13" class="pergunta13">
+            <p id="letra1_13"></p>
+            <p id="letra2_13"></p>
+        </div>
+
+        <div id="pergunta14" class="pergunta14">
+            <p id="letra1_14"></p>
+            <p id="letra2_14"></p>
+        </div>
+
+        <div id="pergunta15" class="pergunta15">
+            <p id="letra1_15"></p>
+            <p id="letra2_15"></p>
+            <p id="letra3_15"></p>
+            <p id="letra4_15"></p>
+            <p id="letra5_15"></p>
+            <p id="letra6_15"></p>
+            <p id="letra7_15"></p>
+            <p id="letra8_15"></p>
+            <p id="letra9_15"></p>
+        </div>
+
+        <div id="pergunta16" class="pergunta16">
+            <p id="letra1_16"></p>
+            <p id="letra2_16"></p>
+            <p id="letra3_16"></p>
+            <p id="letra4_16"></p>
+            <p id="letra5_16"></p>
+            <p id="letra6_16"></p>
+            <p id="letra7_16"></p>
+            <p id="letra8_16"></p>
+            <p id="letra9_16"></p>
+        </div>
+
+        <div id="pergunta17" class="pergunta17">
+            <p id="letra1_17"></p>
+            <p id="letra2_17"></p>
+            <p id="letra3_17"></p>
+            <p id="letra4_17"></p>
+            <p id="letra5_17"></p>
+            <p id="letra6_17"></p>
+            <p id="letra7_17"></p>
+        </div>
+
+        <div id="pergunta18" class="pergunta18">
+            <p id="letra1_18"></p>
+            <p id="letra2_18"></p>
+            <p id="letra3_18"></p>
+            <p id="letra4_18"></p>
+            <p id="letra5_18"></p>
+        </div>
+
+        
+
+
     </div>
 
     <div class="inputsContainer">
@@ -58,12 +114,12 @@
         <input id="inputPergunta" oninput="enviarPergunta()">
         <input id="inputPergunta" oninput="enviarPergunta()">
         <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
-        <input id="inputPergunta" oninput="enviarPergunta()">
+        <input id="inputPergunta13" oninput="enviarPergunta13()">
+        <input id="inputPergunta14" oninput="enviarPergunta14()">
+        <input id="inputPergunta15" oninput="enviarPergunta15()">
+        <input id="inputPergunta16" oninput="enviarPergunta16()">
+        <input id="inputPergunta17" oninput="enviarPergunta17()">
+        <input id="inputPergunta18" oninput="enviarPergunta18()">
     </div>
 </body>
 
@@ -110,6 +166,68 @@
         letra1_4.innerHTML = resposta4[0]
         letra2_4.innerHTML = resposta4[1]
         letra3_4.innerHTML = resposta4[2]
+    }
+
+    function enviarPergunta13() { // i5
+        var resposta13 = inputPergunta13.value
+
+        letra1_13.innerHTML = resposta10[0]
+        letra2_13.innerHTML = resposta10[1]
+      
+    }
+    function enviarPergunta14() { // i7 
+        var resposta14 = inputPergunta14.value
+
+        letra1_14.innerHTML = resposta10[0]
+        letra2_14.innerHTML = resposta10[1]
+       
+    }
+
+    function enviarPergunta15() { // dual core 
+        var resposta15 = inputPergunta15.value
+
+        letra1_15.innerHTML = resposta10[0]
+        letra2_15.innerHTML = resposta10[1]
+        letra3_15.innerHTML = resposta10[2]
+        letra4_15.innerHTML = resposta10[3]
+        letra4_15.innerHTML = "-"
+        letra6_15.innerHTML = resposta10[4]
+        letra7_15.innerHTML = resposta10[5]
+        letra8_15.innerHTML = resposta10[6]
+        letra9_15.innerHTML = resposta10[7]
+    }
+    function enviarPergunta16() { // quad core
+        var resposta16 = inputPergunta16.value
+
+        letra1_16.innerHTML = resposta10[0]
+        letra2_16.innerHTML = resposta10[1]
+        letra3_16.innerHTML = resposta10[2]
+        letra4_16.innerHTML = resposta10[3]
+        letra5_16.innerHTML = "-"
+        letra6_16.innerHTML = resposta10[4]
+        letra7_16.innerHTML = resposta10[5]
+        letra8_16.innerHTML = resposta10[6]
+        letra9_16.innerHTML = resposta10[7]
+    }
+    function enviarPergunta17() { // Threads
+        var resposta17 = inputPergunta17.value
+
+        letra1_17.innerHTML = resposta11[0]
+        letra2_17.innerHTML = resposta11[1]
+        letra3_17.innerHTML = resposta11[2]
+        letra4_17.innerHTML = resposta11[3]
+        letra5_17.innerHTML = resposta11[4]
+        letra6_17.innerHTML = resposta11[5]
+        letra7_17.innerHTML = resposta11[6]
+    }
+    function enviarPergunta18() { //CACHE
+        var resposta18 = inputPergunta18.value
+
+        letra_1.innerHTML = resposta12[0]
+        letra_2.innerHTML = resposta12[1]
+        letra_3.innerHTML = resposta12[2]
+        letra_4.innerHTML = resposta12[3]
+        letra_5.innerHTML = resposta12[4]
     }
 
 
