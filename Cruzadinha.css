@@ -13,7 +13,7 @@ p {
     padding-bottom: 1rem;
   }
   
-  .cruzadinhas {
+  .cruzadinha {
     display: absolute;
     flex-direction: column;
     width: 70rem;
@@ -168,4 +168,8 @@ p {
     flex-direction: column;
     margin-left: 11.2rem;
     margin-top: 13.5rem;
+  }
+
+  .inputError{
+    border: 2px solid red;
   }
