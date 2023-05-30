@@ -173,3 +173,13 @@ p {
   .inputError{
     border: 2px solid red;
   }
+
+  .inputCorrect{
+    border: 2px solid green;
+  }
+
+  .inputDefault{
+    border: 2px solid black;
+  }
+
+  
