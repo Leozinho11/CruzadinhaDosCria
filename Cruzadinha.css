@@ -1,5 +1,6 @@
 p {
-    border: 2px solid black;
+    border: 2px solid white;
+    color: white;
     height: 2rem;
     width: 2rem;
     text-align: center;
@@ -9,25 +10,58 @@ p {
   
   body {
     display: flex;
+    background-color: black;
     flex-direction: column;
     padding-bottom: 1rem;
+    flex-direction: row;
+    overflow-y: hidden;
   }
   
   .cruzadinha {
     display: absolute;
     flex-direction: column;
-    width: 70rem;
+    width: 40rem;
     height: 70rem;
+    color: white;
   }
   
   input {
+    width: 10rem;
+    height: 2rem;
     margin-top: 1rem;
+    color: white;
+    font-size: 1.3rem;
   }
   
   .inputsContainer {
-    display: absolute;
-    flex-direction: column;
-    width: 20rem;
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 50rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: scrool;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .inputsContainer::-webkit-scrollbar{
+    width: 10px;
+  }
+
+  .inputsContainer::-webkit-scrollbar-track{
+    background-color: black;
+  }
+
+  .inputsContainer::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
   }
   
   .pergunta1 {
@@ -127,7 +161,7 @@ p {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 11.2rem;
+    margin-left: 11.3rem;
     margin-bottom: 1rem;
   }
   
@@ -182,4 +216,110 @@ p {
     border: 2px solid black;
   }
 
-  
+  #BP1 {
+    color: white; 
+    position: absolute;
+margin-left: 0.2rem;
+  }
+
+  #BP2 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP3 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP4 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP5 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP6 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP7 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP8 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP9 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP10{
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP11 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP12 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP13 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP14 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP15 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP16 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP17 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+  #BP18 {
+    color: white; 
+    position: absolute;
+    margin-left: 0.2rem;
+  }
